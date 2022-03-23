@@ -1,5 +1,5 @@
 This README file contains information on the contents of the
-meta-karp layer.
+meta-user layer.
 
 Please see the corresponding sections below for details.
 
@@ -24,41 +24,41 @@ This layer depends on:
 Patches
 =======
 
-Please submit any patches against the meta-karp layer to the
+Please submit any patches against the meta-user layer to the
 xxxx mailing list (xxxx@zzzz.org) and cc: the maintainer:
 
-Maintainer: Jorge Lamperez
+Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
 
 
 Table of Contents
 =================
 
-  I. Adding the meta-karp layer to your build
+  I. Adding the meta-user layer to your build
  II. Misc
 
 
-I. Adding the meta-karp layer to your build
+I. Adding the meta-user layer to your build
 =================================================
 
---- replace with specific instructions for the meta-karp layer ---
+--- replace with specific instructions for the meta-user layer ---
 
 In order to use this layer, you need to make the build system aware of
 it.
 
-Assuming the meta-karp layer exists at the top-level of your
+Assuming the meta-user layer exists at the top-level of your
 yocto build tree, you can add it to the build system by adding the
-location of the meta-karp layer to bblayers.conf, along with any
+location of the meta-user layer to bblayers.conf, along with any
 other layers needed. e.g.:
 
   BBLAYERS ?= " \
     /path/to/yocto/meta \
     /path/to/yocto/meta-poky \
     /path/to/yocto/meta-yocto-bsp \
-    /path/to/yocto/meta-karp \
+    /path/to/yocto/meta-meta-user \
     "
 
 
 II. Misc
 ========
 
---- replace with specific information about the meta-karp layer ---
+--- replace with specific information about the meta-user layer ---

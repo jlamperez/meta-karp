@@ -1,0 +1,10 @@
+#Note: Mention Each package in individual line
+#These packages will get added into rootfs menu entry
+
+CONFIG_gpio-demo
+CONFIG_peekpoke
+CONFIG_packagegroup-petalinux-som
+CONFIG_packagegroup-core-full-cmdline
+CONFIG_benchmark-b4096
+CONFIG_smartcam
+CONFIG_karp-smartcam
